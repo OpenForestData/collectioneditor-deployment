@@ -54,8 +54,8 @@ The service `ce_frontend` has the following variables:
 
 ## Deployment
 ```
-$ URL="localhost" docker-compose pull
-$ URL="localhost" docker-compose up -d
+$ http="http" URL="localhost" docker-compose pull
+$ http="http" URL="localhost" docker-compose up -d
 ```
 
 The `http` and `URL` variables define the addresses on which the application is to be launched and on which frontend the backend listens.
